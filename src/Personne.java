@@ -10,5 +10,6 @@ public class Personne {
     public void afficherInfos() {
         System.out.println("Nom : " + nom);
         System.out.println("Âge : " + age);
+        System.out.println("Bonjour " + nom + ", vous avez " + age + " ans.");
     }
 }
